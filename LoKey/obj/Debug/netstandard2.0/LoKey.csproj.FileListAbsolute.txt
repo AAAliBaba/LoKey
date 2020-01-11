@@ -1,0 +1,16 @@
+/Users/arafatarman/Projects/LoKey/LoKey/bin/Debug/netstandard2.0/LoKey.deps.json
+/Users/arafatarman/Projects/LoKey/LoKey/bin/Debug/netstandard2.0/LoKey.dll
+/Users/arafatarman/Projects/LoKey/LoKey/bin/Debug/netstandard2.0/LoKey.pdb
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/LoKey.csprojAssemblyReference.cache
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/LoKey.csproj.CoreCompileInputs.cache
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/LoKey.AssemblyInfoInputs.cache
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/LoKey.AssemblyInfo.cs
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/LoKey.dll
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/LoKey.pdb
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/SplashPage.xaml.g.cs
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/styles.css.g.cs
+/Users/arafatarman/Projects/LoKey/LoKey/obj/Debug/netstandard2.0/AddKeyPage.xaml.g.cs

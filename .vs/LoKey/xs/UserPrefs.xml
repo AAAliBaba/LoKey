@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{43B700E0-35D1-4A84-99D1-A735D0E97B2A}|Default">
+  <MonoDevelop.Ide.ItemProperties.LoKey.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.LoKey.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.35D172E7-BE0D-4EE9-82DC-70FDA8EC098D" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LoKey/MainPage.xaml">
+    <Files>
+      <File FileName="LoKey/MainPage.xaml.cs" Line="34" Column="49" />
+      <File FileName="LoKey/MainPage.xaml" Line="9" Column="52" />
+      <File FileName="LoKey.Android/MainActivity.cs" Line="25" Column="67" />
+      <File FileName="LoKey/SplashPage.xaml" Line="9" Column="34" />
+      <File FileName="LoKey/SplashPage.xaml.cs" Line="19" Column="60" />
+      <File FileName="LoKey/App.xaml.cs" Line="9" Column="69" />
+      <File FileName="LoKey/HomePage.xaml" Line="47" Column="26" />
+      <File FileName="LoKey/HomePage.xaml.cs" />
+      <File FileName="LoKey/Key.cs" />
+      <File FileName="LoKey/Keychain.cs" />
+      <File FileName="LoKey/styles.css" />
+      <File FileName="LoKey/AddKeyPage.xaml" />
+      <File FileName="LoKey/AddKeyPage.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LoKey" expanded="True">
+            <Node name="LoKey" expanded="True">
+              <Node name="AddKeyPage.xaml" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="HomePage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="SplashPage.xaml" expanded="True" />
+            </Node>
+            <Node name="LoKey.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

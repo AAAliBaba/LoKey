@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="LoKey.HomePage"
+    BackgroundColor="White">
+    <ContentPage.Resources>
+            <StyleSheet Source="/styles.css" />
+        </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid x:Name="grid_parent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.10*"/>
+                <RowDefinition Height="0.80*"/>
+                <RowDefinition Height="0.10*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0"
+                   Text="Your Keys"
+                   FontSize="Large"
+                   
+                   FontFamily="Times New Roman"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
+            <StackLayout x:Name="bot_grid_parent"
+                         Grid.Row="1"
+                         VerticalOptions="Center">
+                    <ScrollView Orientation="Horizontal">
+                        <Grid x:Name="bot_grid_child">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height="0.5*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                    </ScrollView>
+            </StackLayout>
+
+            <Button Grid.Row="2"
+                    StyleClass="add_btn"
+                    x:Name="btn_add"
+                    Text="Add New Key"
+                    Clicked="onAddClicked"/>
+
+            <ContentView x:Name="popupLoadingView"
+                         BackgroundColor="#C0808080"
+                         
+                         IsVisible="false"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center">
+                <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                    <StackLayout Orientation="Vertical"
+                                 HeightRequest="150"
+                                 WidthRequest="200"
+                                 BackgroundColor="White">
+                        <Label x:Name="lblLoadingText"
+                               TextColor="Black"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               VerticalTextAlignment="Center"
+                               Text="Searching for hub..."/>
+                        <Button Text="Cancel"
+                                Clicked="btnPopupButton_Clicked"/>
+                    </StackLayout>
+                </StackLayout>
+            </ContentView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
